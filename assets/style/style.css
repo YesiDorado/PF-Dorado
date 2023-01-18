@@ -1,0 +1,121 @@
+
+
+
+.contacto{
+    width: 100%;
+}
+
+.diseno{
+    width: 100%;
+}
+
+
+
+/* furmulario */
+#formulario{
+  width: 20%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* tienda */
+#tabla{
+  text-align: center;
+}
+table{
+  width: 90%;
+  margin: 0 auto;
+}
+/* fotos telas */
+#fototela{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 3%;
+  margin-left: 20%;
+}
+
+/* info */
+
+#info{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #c3c9c8;
+  margin: 0% 10% 10%;
+  border-radius: 2%;
+}
+@media only screen and (max-width: 600px) {
+  .header{
+    width: 30%;
+  }
+  .logo{
+    width: 50%;
+  }
+  .almendra{
+    font-size: 15px;
+    margin-top: 15%;
+  }
+  .inicio__titulo{
+    margin-top: 5%;
+  }
+  .main__inicio1__titulo{
+    font-size: 14px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+  }
+  .main__inicio__subtitulo{
+    font-size: 13px;
+  }
+  #descripcion{
+    height: 100%;
+  }
+  .descripcion{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 15%;
+  }
+  #fotosdestacada{
+    display: flex;
+    flex-direction: column;
+    margin-left: 18%;
+  }
+  .destacada1{
+    margin-left: 4%;
+    margin-bottom: 2%;
+  }
+  .destacada2{
+    margin-bottom: 2%;
+  }
+  #info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .nosotras{
+    width: 80%;
+    height: 80%;
+    margin-left: 6%;
+    border-radius: 5px;
+  }
+  .parrafonosotras{
+    margin: 15px auto;
+  }
+  #formulario{
+    width: 60%;
+    margin: 0 auto;
+  }
+  .maps{
+    margin-top: 2%;
+    padding: 0;
+  }
+  #fototela{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+  }
+  .tela1{
+    margin-bottom: 2%;
+  }
+}
+
