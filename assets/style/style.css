@@ -54,53 +54,8 @@ table{
     font-size: 15px;
     margin-top: 15%;
   }
-  .inicio__titulo{
-    margin-top: 5%;
-  }
-  .main__inicio1__titulo{
-    font-size: 14px;
-    margin-top: 5%;
-    margin-bottom: 3%;
-  }
-  .main__inicio__subtitulo{
-    font-size: 13px;
-  }
-  #descripcion{
-    height: 100%;
-  }
-  .descripcion{
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    margin: 0 15%;
-  }
-  #fotosdestacada{
-    display: flex;
-    flex-direction: column;
-    margin-left: 18%;
-  }
-  .destacada1{
-    margin-left: 4%;
-    margin-bottom: 2%;
-  }
-  .destacada2{
-    margin-bottom: 2%;
-  }
-  #info{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-  }
-  .nosotras{
-    width: 80%;
-    height: 80%;
-    margin-left: 6%;
-    border-radius: 5px;
-  }
-  .parrafonosotras{
-    margin: 15px auto;
-  }
+
+
   #formulario{
     width: 60%;
     margin: 0 auto;
