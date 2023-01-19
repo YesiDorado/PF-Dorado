@@ -234,6 +234,34 @@ body{
  
 }
 
+#containernosotras{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 5% 10% 10%;
+    height: 400px;
+    width: 80%;
+
+    .titulo{
+    font-family: 'Alice', serif;
+    color: map-get(c.$colores, "destacado2") ;
+    font-size: 50px;
+    }
+
+    .subtitulo{
+        font-family: 'alice, serif';
+        font-size: 25px;
+        color: map-get(c.$colores, "destacado2");
+    }
+
+    .texto{
+        font-family: 'baskervville', serif;
+        text-align: center;
+        color: map-get(c.$colores, "destacado2");
+        
+    }
+
+}
+
 /*media*/
 @media only screen and (max-width: 768px) {
     .header{
@@ -294,6 +322,11 @@ body{
             padding: 10px;
         }
     
+    }
+    #containernosotras{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }
 
@@ -358,3 +391,4 @@ body{
     
     }
 }
+

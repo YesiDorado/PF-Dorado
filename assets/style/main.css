@@ -222,6 +222,29 @@ body {
   background-color: #a4beba;
 }
 
+#containernosotras {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 5% 10% 10%;
+  height: 400px;
+  width: 80%;
+}
+#containernosotras .titulo {
+  font-family: "Alice", serif;
+  color: #c3c9c8;
+  font-size: 50px;
+}
+#containernosotras .subtitulo {
+  font-family: "alice, serif";
+  font-size: 25px;
+  color: #c3c9c8;
+}
+#containernosotras .texto {
+  font-family: "baskervville", serif;
+  text-align: center;
+  color: #c3c9c8;
+}
+
 /*media*/
 @media only screen and (max-width: 768px) {
   .header {
@@ -278,6 +301,11 @@ body {
   #info .btn-nosotras {
     margin-left: 40%;
     padding: 10px;
+  }
+  #containernosotras {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
 @media only screen and (max-width: 600px) {
