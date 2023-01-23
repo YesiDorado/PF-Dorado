@@ -305,6 +305,29 @@ body {
   font-size: 20px;
 }
 
+/*page contacto*/
+#container_contacto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.8fr 1.5fr;
+  gap: 0px 0px;
+  grid-template-areas: "titulo_contacto formulario" "img_contacto formulario";
+}
+#container_contacto .titulo_contacto {
+  grid-area: titulo_contacto;
+  font-family: "Alice", serif;
+  color: #c3c9c8;
+  font-size: 50px;
+  margin: 10px;
+}
+#container_contacto .img_contacto {
+  grid-area: img_contacto;
+  width: 220px;
+  height: 280px;
+  margin: 10px;
+  border-radius: 30px;
+}
+
 /*media*/
 @media only screen and (max-width: 768px) {
   .header {
