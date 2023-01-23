@@ -222,6 +222,7 @@ body {
   background-color: #a4beba;
 }
 
+/*page nosotras*/
 #containernosotras {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -245,6 +246,7 @@ body {
   color: #c3c9c8;
 }
 
+/*page tienda*/
 #tienda {
   display: grid;
   grid-template-columns: 0.5fr 1.7fr;
@@ -275,34 +277,32 @@ body {
   font-size: 18px;
 }
 
-#telas {
-  display: grid;
-  grid-template-columns: 0.5fr 1.7fr;
-  gap: 46px 11px;
-}
-#telas .muestrario {
+/*telas*/
+.muestrario {
   font-family: "Alice", serif;
   color: #c3c9c8;
   font-size: 50px;
-  margin: 10px;
+  margin: 20px;
 }
-#telas .box {
+
+.box-caja {
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+}
+.box-caja img {
   width: 80%;
+  height: 650px;
+  border-radius: 10px;
 }
-#telas .box .img {
-  width: 850px;
-  height: 280px;
-  margin: 10px;
-  border-radius: 30px;
+.box-caja .text-description {
+  margin-top: 10px;
+  font-family: "alice", serif;
 }
-#telas .box .h3 {
-  font-family: "Alice", serif;
-  font-size: 30px;
-}
-#telas .box p {
-  text-align: left;
+.box-caja p {
+  padding: 15px 0 25px;
   font-family: "baskervville", serif;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 /*media*/
@@ -367,6 +367,10 @@ body {
     flex-direction: column;
     justify-content: center;
   }
+  .box-caja {
+    display: flex;
+    flex-direction: column;
+  }
 }
 @media only screen and (max-width: 600px) {
   .header {
@@ -424,6 +428,10 @@ body {
   #info .btn-nosotras {
     margin-left: 35%;
     padding-right: 80px;
+  }
+  .box-caja {
+    display: flex;
+    flex-direction: column;
   }
 }
 .footer {

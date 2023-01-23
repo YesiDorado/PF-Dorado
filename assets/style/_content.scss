@@ -233,7 +233,7 @@ body{
     }
  
 }
-
+/*page nosotras*/
 #containernosotras{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -261,6 +261,8 @@ body{
     }
 
 }
+
+/*page tienda*/
 #tienda{
     display: grid; 
     grid-template-columns: 0.5fr 1.7fr;  
@@ -294,37 +296,37 @@ body{
     }
 
 }
-#telas{
-    display: grid; 
-    grid-template-columns: 0.5fr 1.7fr;  
-    gap: 46px 11px; 
-    
-    .muestrario{
-        font-family: 'Alice', serif;
-        color: map-get(c.$colores, "destacado2") ;
-        font-size: 50px;
-        margin: 10px ;
+ /*telas*/
+.muestrario{
+    font-family: 'Alice', serif;
+    color: map-get(c.$colores, "destacado2") ;
+    font-size: 50px;
+    margin: 20px ;
     }
-    .box{
+
+.box-caja{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px ;
+
+    img{
         width: 80%;
-    
-    .img{
-        width: 850px;
-        height: 280px;
-        margin: 10px;
-        border-radius: 30px;
+        height: 650px;
+        border-radius: 10px;
     }
-    .h3{
-        font-family: 'Alice', serif;
-        font-size: 30px;
+  
+    .text-description{
+        margin-top: 10px;
+        font-family: 'alice', serif;
     }
+
     p{
-        text-align:left;
+        padding: 15px 0 25px;
         font-family: 'baskervville', serif;
-        font-size: 18px;
+        font-size: 20px;
     }
 }
-}
+
 
 
 /*media*/
@@ -393,6 +395,10 @@ body{
         flex-direction: column;
         justify-content: center;
     }
+    .box-caja{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -454,6 +460,10 @@ body{
             padding-right: 80px;
         }
     
+    }
+    .box-caja{
+        display: flex;
+        flex-direction: column;
     }
 }
 
