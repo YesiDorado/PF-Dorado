@@ -245,6 +245,66 @@ body {
   color: #c3c9c8;
 }
 
+#tienda {
+  display: grid;
+  grid-template-columns: 0.5fr 1.7fr;
+  gap: 46px 11px;
+  grid-template-areas: "producto caja";
+}
+#tienda .producto {
+  font-family: "Alice", serif;
+  color: #c3c9c8;
+  font-size: 50px;
+  margin: 10px;
+}
+#tienda .caja {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 15px 15px;
+}
+#tienda .caja img {
+  width: 220px;
+  height: 280px;
+  margin: 10px;
+  border-radius: 30px;
+}
+#tienda .caja p {
+  text-align: center;
+  font-family: "baskervville", serif;
+  font-size: 18px;
+}
+
+#telas {
+  display: grid;
+  grid-template-columns: 0.5fr 1.7fr;
+  gap: 46px 11px;
+}
+#telas .muestrario {
+  font-family: "Alice", serif;
+  color: #c3c9c8;
+  font-size: 50px;
+  margin: 10px;
+}
+#telas .box {
+  width: 80%;
+}
+#telas .box .img {
+  width: 850px;
+  height: 280px;
+  margin: 10px;
+  border-radius: 30px;
+}
+#telas .box .h3 {
+  font-family: "Alice", serif;
+  font-size: 30px;
+}
+#telas .box p {
+  text-align: left;
+  font-family: "baskervville", serif;
+  font-size: 18px;
+}
+
 /*media*/
 @media only screen and (max-width: 768px) {
   .header {
