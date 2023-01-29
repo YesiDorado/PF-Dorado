@@ -306,26 +306,34 @@ body {
 }
 
 /*page contacto*/
-#container_contacto {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.8fr 1.5fr;
-  gap: 0px 0px;
-  grid-template-areas: "titulo_contacto formulario" "img_contacto formulario";
-}
-#container_contacto .titulo_contacto {
-  grid-area: titulo_contacto;
+.titulo_contacto {
   font-family: "Alice", serif;
   color: #c3c9c8;
   font-size: 50px;
-  margin: 10px;
+  margin: 20px;
 }
-#container_contacto .img_contacto {
-  grid-area: img_contacto;
-  width: 220px;
-  height: 280px;
-  margin: 10px;
-  border-radius: 30px;
+
+.form {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  gap: 30px;
+  color: #c3c9c8;
+  border-radius: 6px;
+}
+.form .img {
+  width: 200px;
+  height: 150px;
+  display: none;
+}
+
+.formulario input {
+  padding: 8px 16px;
+  margin-top: 32px;
+  border: 1px solid #c3c9c8;
+  border-radius: 6px;
 }
 
 /*media*/
