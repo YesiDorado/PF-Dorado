@@ -438,17 +438,6 @@ body{
         flex-direction: column;
     }
 
-    .form{
-        padding-top: 40px;
-        padding-bottom: 30px;
-        display: flex;
-        flex-direction: row;
-    
-        .img{
-        width: 100px;
-        border-radius: 6px;
-        }
-    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -516,16 +505,20 @@ body{
         flex-direction: column;
     }
 
-    .form{
-        padding-top: 40px;
-        padding-bottom: 30px;
+    #form{
+        padding-top: 20px;
+        padding-bottom: 20px;
         display: flex;
+        flex-direction: row;
         justify-content: center;
-        gap: 30px;
+        gap: 10px;
         color:#c3c9c8;
     
-        .img{
-        width: 40%;
+        .img_contact{
+            width: 200px;
+            height: 400px;
+            border-radius: 6px;
+    
         }
     }
 }
