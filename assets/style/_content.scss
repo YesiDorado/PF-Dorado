@@ -339,7 +339,7 @@ body{
     margin: 20px ;
 }
 
-.form{
+#form{
     padding-top: 40px;
     padding-bottom: 30px;
     display: flex;
@@ -347,10 +347,11 @@ body{
     gap: 30px;
     color:#c3c9c8;
 
-    .img{
-    width: 200px;
-    height: 150px;
-    border-radius: 6px;
+    .img_contact{
+        width: 450px;
+        height: 700px;
+        border-radius: 6px;
+
     }
 }
 
@@ -436,6 +437,18 @@ body{
         display: flex;
         flex-direction: column;
     }
+
+    .form{
+        padding-top: 40px;
+        padding-bottom: 30px;
+        display: flex;
+        flex-direction: row;
+    
+        .img{
+        width: 100px;
+        border-radius: 6px;
+        }
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -501,6 +514,19 @@ body{
     .box-caja{
         display: flex;
         flex-direction: column;
+    }
+
+    .form{
+        padding-top: 40px;
+        padding-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        color:#c3c9c8;
+    
+        .img{
+        width: 40%;
+        }
     }
 }
 
