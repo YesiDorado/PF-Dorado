@@ -241,7 +241,9 @@ body {
   color: #c3c9c8;
 }
 #containernosotras .texto {
+  grid-column: 2;
   font-family: "baskervville", serif;
+  font-size: 18px;
   text-align: center;
   color: #c3c9c8;
 }
@@ -298,11 +300,13 @@ body {
 .box-caja .text-description {
   margin-top: 10px;
   font-family: "alice", serif;
+  color: #8f9493;
 }
 .box-caja p {
-  padding: 15px 0 25px;
+  padding: 8px 50px 30px 30px;
   font-family: "baskervville", serif;
   font-size: 20px;
+  color: #8f9493;
 }
 
 /*page contacto*/
@@ -317,16 +321,14 @@ body {
   padding-top: 40px;
   padding-bottom: 30px;
   display: flex;
-  flex-wrap: wrap-reverse;
   justify-content: center;
   gap: 30px;
   color: #c3c9c8;
-  border-radius: 6px;
 }
 .form .img {
   width: 200px;
   height: 150px;
-  display: none;
+  border-radius: 6px;
 }
 
 .formulario input {
